@@ -11,4 +11,4 @@ A basic web project demonstrating HTML structure and CSS styling with a responsi
 ## Getting Started
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/hoiregeno/image-slider
