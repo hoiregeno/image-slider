@@ -22,13 +22,13 @@ function initializeSlider() {
 
 // Define functions
 function nextSlide() {
-  currentIndex = (currentIndex + 1) % slideSize;
+  currentIndex = (currentIndex + 1) % slideSize; // increments index then falls back to zero.
   showSlide(currentIndex);
 }
 
 function prevSlide() {
   clearInterval(intervalId);
-  currentIndex = (currentIndex - 1 + slideSize) % slideSize;
+  currentIndex = (currentIndex - 1 + slideSize) % slideSize; // decrements index then falls back to 2.
   showSlide(currentIndex);
 }
 
